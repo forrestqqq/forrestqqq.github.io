@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/daishu.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/daishu.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/daishu.jpg">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -28,7 +28,7 @@
 <meta property="og:description" content="下载node.js 建议下载LTS版本，我下载了最新的Current版本，导致在部署到github上是出现了各种错误，所以谨慎下载。官网下载很慢，可以挂vpn或者找网友下好的包。  需要确认git的安装，没有的话需要下载，之后的命令建议用git bash打开  npm慢的话可以用cnpm挂淘宝的镜像   初体验之命令 node -v &#x2F;&#x2F; 查看node.js版本 npm -v &#x2F;&#x2F; 查看npm版">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-04-25T14:45:23.000Z">
-<meta property="article:modified_time" content="2020-04-26T08:33:27.410Z">
+<meta property="article:modified_time" content="2020-04-26T08:53:48.655Z">
 <meta property="article:author" content="Forrest Qi">
 <meta name="twitter:card" content="summary">
 
@@ -180,7 +180,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-04-26 16:33:27" itemprop="dateModified" datetime="2020-04-26T16:33:27+08:00">2020-04-26</time>
+                <time title="Modified: 2020-04-26 16:53:48" itemprop="dateModified" datetime="2020-04-26T16:53:48+08:00">2020-04-26</time>
               </span>
 
           
@@ -215,7 +215,7 @@
 <li><code>hexo g</code>// 生成静态页面</li>
 <li><code>hexo s</code> // 打开server</li>
 <li><code>localhost：4000</code>// 查看你的本地blog</li>
-<li><code>配置blog目录下的_config.yml文件</code> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git  </span><br><span class="line">repo: https:&#x2F;&#x2F;github.com&#x2F;YourGithubName&#x2F;YourGithubName.github.io.git  &#x2F;&#x2F; 你在github创建的repository中的https内容</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></li>
+<li>配置blog目录下的_config.yml文件 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"><span class="built_in">type</span>: git  </span><br><span class="line">repo: https://github.com/YourGithubName/YourGithubName.github.io.git  // 你在github创建的repository中的https内容</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></li>
 <li><code>hexo d</code> // 部署到github</li>
 <li><code>enjoy your time</code></li>
 </ul>
@@ -225,7 +225,7 @@
 <li><p><a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo主题选择</a></p>
 </li>
 <li><p>git clone + 复制的链接</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next.git</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next.git</span><br></pre></td></tr></table></figure></li>
 <li><p>编辑<code>_config.yml</code>中的theme属性</p>
 </li>
 </ul>
